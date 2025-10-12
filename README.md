@@ -8,87 +8,70 @@
 ![Followers](https://img.shields.io/github/followers/nikosarcevic?style=flat&logo=github&label=Followers&color=ff9500)
 ![Stars](https://img.shields.io/github/stars/nikosarcevic?style=flat&logo=github&label=Stars&color=ffb000)
 
-<h2 style="color:#ff8c00;">
-  <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitparrot.gif" width="50"> About me
-</h2>
+<!-- Orange badge heading -->
+![ABOUT ME](https://img.shields.io/badge/ABOUT%20ME-ff8c00?style=for-the-badge&labelColor=0d1117&logoColor=white)
 
-<ul style="list-style:none; padding-left:0; margin:0;">
-  <li style="margin:.35rem 0;">
-    <span style="color:#ff8c00; font-weight:700;">●</span>
-    Postdoc at Duke University (cosmology)
-  </li>
-  <li style="margin:.35rem 0;">
-    <span style="color:#ff8c00; font-weight:700;">●</span>
-    Member of LSST DESC & Roman HLIS
-  </li>
-  <li style="margin:.35rem 0;">
-    <span style="color:#ff8c00; font-weight:700;">●</span>
-    I build forecasting/inference tools with reproducible pipelines
-  </li>
-  <li style="margin:.35rem 0;">
-    <span style="color:#ff8c00; font-weight:700;">●</span>
-    Co-organizer of <a href="https://cosmologyfromhome.com" style="color:#ff4db8;">Cosmology from Home</a>
-  </li>
-  <li style="margin:.35rem 0;">
-    <span style="color:#ff8c00; font-weight:700;">●</span>
-    Member of <a href="https://echoia.org" style="color:#ff4db8;">echoIA</a>
-  </li>
-  <li style="margin:.35rem 0;">
-    <span style="color:#ff8c00; font-weight:700;">●</span>
-    Learn more on my <a href="https://nikosarcevic.com" style="color:#ff4db8;">personal website</a>
-  </li>
-</ul>
+<img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitparrot.gif" width="44" alt="parrot">  
+🟧 Postdoc at Duke University [Cosmology group](https://cosmology.phy.duke.edu/author/niko-sarcevic/)
+🟧 Member of LSST DESC & Roman HLIS
+🟧 I build forecasting/inference tools with reproducible pipelines  
+🟧 Co-organizer of [Cosmology from Home](https://cosmologyfromhome.com)  
+🟧 Member of [echoIA](https://echoia.org)  
+🟧 Learn more on my [personal website](https://nikosarcevic.com)
+🟧 Check out the papers I've contributed to on [iNSPIRE-HEP](https://inspirehep.net/authors/1706125?ui-citation-summary=true)
 
-<h2 style="color:#ff8c00;">
-  <img src="https://cultofthepartyparrot.com/parrots/hd/everythingsfineparrot.gif" width="50"> What I am currently working on
-</h2>
+<!-- Orange badge heading -->
+![WHAT I’M WORKING ON](https://img.shields.io/badge/WHAT%20I%E2%80%99M%20WORKING%20ON-ff8c00?style=for-the-badge&labelColor=0d1117&logoColor=white)
 
-<div style="display:flex; gap:12px; flex-wrap:wrap;">
-  <a href="https://github.com/nikosarcevic/derivkit" style="text-decoration:none; flex:1 1 300px; color:#ff4db8;">
-    <div style="border:1.5px solid #ff8c00; border-radius:12px; padding:14px 16px;">
-      <div style="font-weight:700; color:#ff8c00; font-size:1.05rem;">DerivKit</div>
-      <div style="opacity:.9; margin-top:4px;">Adaptive polynomial-fit derivatives, Fisher/DALI utilities</div>
-    </div>
-  </a>
+<img src="https://cultofthepartyparrot.com/parrots/hd/everythingsfineparrot.gif" width="44" alt="parrot">
 
-  <a href="https://echoia.org" style="text-decoration:none; flex:1 1 300px; color:#ff4db8;">
-    <div style="border:1.5px solid #ff8c00; border-radius:12px; padding:14px 16px;">
-      <div style="font-weight:700; color:#ff8c00; font-size:1.05rem;">echoIA hub</div>
-      <div style="opacity:.9; margin-top:4px;">Community resources & shape-catalog links for intrinsic alignments</div>
-    </div>
-  </a>
-</div>
+<table>
+  <tr>
+    <td>
+      <b>DerivKit</b><br/>
+      Adaptive polynomial-fit derivatives, Fisher/DALI utilities<br/>
+      <a href="https://github.com/nikosarcevic/derivkit">
+        <img alt="Open DerivKit" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
+    </td>
+    <td>
+      <b>echoIA hub</b><br/>
+      Community resources & shape-catalog links for intrinsic alignments<br/>
+      <a href="https://echoia.org">
+        <img alt="Open echoIA" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=open-access&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
+    </td>
+  </tr>
+</table>
 
-<h2 style="color:#ff8c00;">
-  <img src="https://cultofthepartyparrot.com/parrots/hd/googlyeyesparrot.gif" width="50"> WakaTime (coding time)
-</h2>
+<!-- Orange badge heading -->
+![WAKATIME (CODING TIME)](https://img.shields.io/badge/WAKATIME%20(CODING%20TIME)-ff8c00?style=for-the-badge&labelColor=0d1117&logoColor=white)
+
+<img src="https://cultofthepartyparrot.com/parrots/hd/googlyeyesparrot.gif" width="44" alt="parrot">
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
-<!-- <h2 style="color:#ff8c00;">
-  <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" alt="Party Parrot" width="50"> Selected repos
-</h2> -->
+<!-- Orange badge heading -->
+![SELECTED REPOS](https://img.shields.io/badge/SELECTED%20REPOS-ff8c00?style=for-the-badge&labelColor=0d1117&logoColor=white)
 
-<h2 style="color:#ff8c00;">
-  <img src="https://cultofthepartyparrot.com/parrots/hd/hdrparrot.gif" alt="Party Parrot" width="50"> Selected repos
-</h2>
+<img src="https://cultofthepartyparrot.com/parrots/hd/hdrparrot.gif" width="44" alt="parrot">
 
-
-<div style="display:flex; gap:12px; flex-wrap:wrap;">
-  <a href="https://github.com/nikosarcevic/HEP-ASTRO-COSMO" style="text-decoration:none; flex:1 1 300px; color:#ff4db8;">
-    <div style="border:1.5px solid #ff8c00; border-radius:12px; padding:14px 16px;">
-      <div style="font-weight:700; color:#ff8c00; font-size:1.05rem;">HEP-ASTRO-COSMO</div>
-      <div style="opacity:.9; margin-top:4px;">Open-source software in HEP astro & cosmology</div>
-    </div>
-  </a>
-
-  <a href="https://github.com/nikosarcevic/cosmo_sandbox" style="text-decoration:none; flex:1 1 300px; color:#ff4db8;">
-    <div style="border:1.5px solid #ff8c00; border-radius:12px; padding:14px 16px;">
-      <div style="font-weight:700; color:#ff8c00; font-size:1.05rem;">cosmo_sandbox</div>
-      <div style="opacity:.9; margin-top:4px;">Demo of 2PCF experiments</div>
-    </div>
-  </a>
-</div>
-
----
+<table>
+  <tr>
+    <td>
+      <b>HEP-ASTRO-COSMO</b><br/>
+      Open-source software in HEP astro & cosmology<br/>
+      <a href="https://github.com/nikosarcevic/HEP-ASTRO-COSMO">
+        <img alt="Open repo" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
+    </td>
+    <td>
+      <b>cosmo_sandbox</b><br/>
+      Demo of 2PCF experiments<br/>
+      <a href="https://github.com/nikosarcevic/cosmo_sandbox">
+        <img alt="Open repo" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
+    </td>
+  </tr>
+</table>
