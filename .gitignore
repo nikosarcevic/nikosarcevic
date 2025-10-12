@@ -1,8 +1,9 @@
 # --- OS / Editors ---
 .DS_Store
 Thumbs.db
-.idea/                 # PyCharm / IntelliJ
-.vscode/               # VS Code settings
+.idea/  # PyCharm / IntelliJ
+**/.idea/
+.vscode/  # VS Code settings
 
 # --- Environments ---
 .env
