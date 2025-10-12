@@ -1,4 +1,4 @@
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:ff6a00,50:ff8c00,100:ffb000&height=320&section=header&text=Hi%2C%20I'm%20Niko&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Cosmologist%20at%20Duke%20University%20•%20LSST%20DESC%20•%20NASA%20Roman%20HLIS%20•&descSize=22&descAlignY=58)](https://github.com/nikosarcevic)
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:ff6a00,50:ff8c00,100:ffb000&height=320&section=header&text=Hi%2C%20I'm%20Niko&fontSize=64&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=•%20osmologist%20at%20Duke%20University%20•%20LSST%20DESC%20•%20NASA%20Roman%20HLIS%20•&descSize=22&descAlignY=58)](https://github.com/nikosarcevic)
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=ff8c00&center=true&vCenter=true&repeat=true&width=820&lines=Cosmological+inference+%7C+Fisher%2FDALI%2FMCMC;Weak+lensing+%26+systematics;Combined+cosmological+probes;Open-source+%28DerivKit%2C+FISK%2C+echoIA%29" alt="Typing SVG" />
