@@ -9,7 +9,8 @@
 ![Stars](https://img.shields.io/github/stars/nikosarcevic?style=flat&logo=github&label=Stars&color=ffb000)
 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=2&section=footer" width="100%" />
+<br clear="both" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="" />
 
 
 <!-- ===== ABOUT ME ===== -->
@@ -33,7 +34,8 @@
 - 🟧 Papers on [INSPIRE-HEP](https://inspirehep.net/authors/1706125?ui-citation-summary=true)
 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=2&section=footer" width="100%" />
+<br clear="both" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="" />
 
 
 <!-- ===== WHAT I'M WORKING ON ===== -->
@@ -70,7 +72,9 @@
 </table>
 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=2&section=footer" width="100%" />
+<br clear="both" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="" />
+
 
 
 <!-- ===== WAKATIME ===== -->
@@ -89,7 +93,9 @@
 <!--END_SECTION:waka-->
 
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=2&section=footer" width="100%" />
+<br clear="both" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="" />
+
 
 
 <!-- ===== SELECTED REPOS ===== -->
