@@ -8,6 +8,10 @@
 ![Followers](https://img.shields.io/github/followers/nikosarcevic?style=flat&logo=github&label=Followers&color=ff9500)
 ![Stars](https://img.shields.io/github/stars/nikosarcevic?style=flat&logo=github&label=Stars&color=ffb000)
 
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=2&section=footer" width="100%" />
+
+
 <!-- ===== ABOUT ME ===== -->
 <table border="0" cellspacing="0" cellpadding="0" role="presentation">
   <tr>
@@ -20,7 +24,6 @@
   </tr>
 </table>
 
-
 - 🟧 Postdoc at Duke University ([Cosmology group](https://cosmology.phy.duke.edu/author/niko-sarcevic/))
 - 🟧 Member of LSST DESC & Roman HLIS
 - 🟧 I build forecasting/inference tools with reproducible pipelines
@@ -28,6 +31,10 @@
 - 🟧 Member of [echoIA](https://echoia.org)
 - 🟧 Learn more on my [personal website](https://nikosarcevic.com)
 - 🟧 Papers on [INSPIRE-HEP](https://inspirehep.net/authors/1706125?ui-citation-summary=true)
+
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=2&section=footer" width="100%" />
+
 
 <!-- ===== WHAT I'M WORKING ON ===== -->
 <table border="0" cellspacing="0" cellpadding="0" role="presentation">
@@ -40,7 +47,6 @@
     </td>
   </tr>
 </table>
-
 
 <table border="0" cellspacing="0" cellpadding="0" role="presentation">
   <tr>
@@ -64,6 +70,9 @@
 </table>
 
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=2&section=footer" width="100%" />
+
+
 <!-- ===== WAKATIME ===== -->
 <table border="0" cellspacing="0" cellpadding="0" role="presentation">
   <tr>
@@ -78,6 +87,9 @@
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=2&section=footer" width="100%" />
 
 
 <!-- ===== SELECTED REPOS ===== -->
