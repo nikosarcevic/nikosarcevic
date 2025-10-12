@@ -9,8 +9,14 @@
 ![Stars](https://img.shields.io/github/stars/nikosarcevic?style=flat&logo=github&label=Stars&color=ffb000)
 
 
-<br clear="both" />
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="" />
+<!-- full-width orange divider -->
+<table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+  <tr>
+    <td>
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="">
+    </td>
+  </tr>
+</table>
 
 
 <!-- ===== ABOUT ME ===== -->
@@ -34,8 +40,14 @@
 - 🟧 Papers on [INSPIRE-HEP](https://inspirehep.net/authors/1706125?ui-citation-summary=true)
 
 
-<br clear="both" />
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="" />
+<!-- full-width orange divider -->
+<table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+  <tr>
+    <td>
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="">
+    </td>
+  </tr>
+</table>
 
 
 <!-- ===== WHAT I'M WORKING ON ===== -->
@@ -72,9 +84,14 @@
 </table>
 
 
-<br clear="both" />
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="" />
-
+<!-- full-width orange divider -->
+<table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+  <tr>
+    <td>
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="">
+    </td>
+  </tr>
+</table>
 
 
 <!-- ===== WAKATIME ===== -->
@@ -93,9 +110,14 @@
 <!--END_SECTION:waka-->
 
 
-<br clear="both" />
-<img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="" />
-
+<!-- full-width orange divider -->
+<table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
+  <tr>
+    <td>
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="">
+    </td>
+  </tr>
+</table>
 
 
 <!-- ===== SELECTED REPOS ===== -->
