@@ -9,11 +9,13 @@
 ![Stars](https://img.shields.io/github/stars/nikosarcevic?style=flat&logo=github&label=Stars&color=ffb000)
 
 
-<!-- full-width orange divider -->
+<!-- full-width orange divider (SVG) -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
   <tr>
     <td>
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="">
+      <svg width="100%" height="3" viewBox="0 0 100 3" preserveAspectRatio="none" aria-hidden="true">
+        <rect width="100%" height="3" fill="#ff8c00"></rect>
+      </svg>
     </td>
   </tr>
 </table>
@@ -40,11 +42,13 @@
 - 🟧 Papers on [INSPIRE-HEP](https://inspirehep.net/authors/1706125?ui-citation-summary=true)
 
 
-<!-- full-width orange divider -->
+<!-- full-width orange divider (SVG) -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
   <tr>
     <td>
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="">
+      <svg width="100%" height="3" viewBox="0 0 100 3" preserveAspectRatio="none" aria-hidden="true">
+        <rect width="100%" height="3" fill="#ff8c00"></rect>
+      </svg>
     </td>
   </tr>
 </table>
@@ -84,11 +88,13 @@
 </table>
 
 
-<!-- full-width orange divider -->
+<!-- full-width orange divider (SVG) -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
   <tr>
     <td>
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="">
+      <svg width="100%" height="3" viewBox="0 0 100 3" preserveAspectRatio="none" aria-hidden="true">
+        <rect width="100%" height="3" fill="#ff8c00"></rect>
+      </svg>
     </td>
   </tr>
 </table>
@@ -110,11 +116,13 @@
 <!--END_SECTION:waka-->
 
 
-<!-- full-width orange divider -->
+<!-- full-width orange divider (SVG) -->
 <table border="0" cellspacing="0" cellpadding="0" width="100%" role="presentation">
   <tr>
     <td>
-      <img src="https://capsule-render.vercel.app/api?type=rect&color=ff8c00&height=3&section=footer" width="100%" alt="">
+      <svg width="100%" height="3" viewBox="0 0 100 3" preserveAspectRatio="none" aria-hidden="true">
+        <rect width="100%" height="3" fill="#ff8c00"></rect>
+      </svg>
     </td>
   </tr>
 </table>
