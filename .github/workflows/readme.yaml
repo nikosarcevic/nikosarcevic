@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,9 +18,9 @@ jobs:
         with:
           # Secrets
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # use the built-in token
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}   # classic PAT (repo + read:user)
 
-          # Commit identity
+          # Commit identity (optional)
           COMMIT_BY_ME: "True"
           COMMIT_USERNAME: "Nikolina Sarcevic"
           COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
@@ -41,12 +41,9 @@ jobs:
           SHOW_COMMIT: "False"
           LOCALE: "en"
 
-          # Must match your README markers
           SECTION_NAME: "waka"
-
-          # Diagnostics
           DEBUG_LOGGING: "True"
 
-          # If main is protected, uncomment these to create a PR instead of direct push
-          # PULL_BRANCH_NAME: "waka-readme-update"
-          # PUSH_BRANCH_NAME: "main"
+          # Open a PR into protected main
+          PULL_BRANCH_NAME: "waka-readme-update"
+          PUSH_BRANCH_NAME: "main"
