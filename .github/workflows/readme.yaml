@@ -13,12 +13,31 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
+      - name: Sanity check GH_TOKEN scopes
+        env:
+          CHECK_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          set -e
+          echo "Calling /user with provided GH_TOKEN..."
+          code=$(curl -s -o /tmp/user.json -w "%{http_code}" \
+            -H "Authorization: token $CHECK_TOKEN" \
+            https://api.github.com/user)
+          echo "HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "Body:" && cat /tmp/user.json
+            exit 1
+          fi
+          echo "Token OK. Login:"
+          (command -v jq >/dev/null && jq -r '.login' /tmp/user.json) || python - <<'PY'
+import json; print(json.load(open("/tmp/user.json"))["login"])
+PY
+
       - name: Update WakaTime section
         uses: anmol098/waka-readme-stats@master
         with:
           # Secrets
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}   # classic PAT (repo + read:user)
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
           # Commit identity (optional)
           COMMIT_BY_ME: "True"
