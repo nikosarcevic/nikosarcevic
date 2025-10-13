@@ -17,14 +17,16 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
+      # 1) Checkout
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # 2) Robust sanity check for GH_TOKEN
       - name: Sanity check GH_TOKEN scopes (robust)
         env:
-          CHECK_TOKEN: ${{ secrets.GH_TOKEN }}
+          CHECK_TOKEN: ${{ secrets.GH_TOKEN }}   # classic PAT with read:user + repo/public_repo (or repo)
         run: |
           set -euo pipefail
           echo "Calling /user with provided GH_TOKEN..."
@@ -42,6 +44,7 @@ jobs:
           echo -n "Token OK. Login: "
           python -c "import json; print(json.load(open('/tmp/user.json'))['login'])"
 
+      # 3) Ensure PR branch exists
       - name: Ensure PR branch exists
         run: |
           set -e
@@ -52,6 +55,21 @@ jobs:
             git push -u origin waka-readme-update
           fi
 
+      # 3.5) Guard: reset PR branch to latest main to keep common history
+      - name: Prepare PR branch (reset to main to avoid non-FF)
+        run: |
+          set -e
+          git fetch origin
+          if git ls-remote --exit-code --heads origin waka-readme-update >/dev/null 2>&1; then
+            git checkout -B waka-readme-update origin/waka-readme-update
+            git reset --hard origin/main
+            git push -f origin HEAD:waka-readme-update
+          else
+            git checkout -B waka-readme-update origin/main
+            git push -u origin waka-readme-update
+          fi
+
+      # 4) Update README (lightweight options to avoid GraphQL flakiness)
       - name: Update WakaTime section
         uses: anmol098/waka-readme-stats@master
         with:
@@ -78,7 +96,7 @@ jobs:
           SHOW_TIMEZONE: "False"
           SHOW_LOC_CHART: "False"
 
-          # disable heavy GraphQL bits (these cause the crash)
+          # Disable heavy commit graphs to reduce API errors
           SHOW_COMMIT: "False"
           SHOW_DAYS_OF_WEEK: "False"
 
@@ -87,6 +105,6 @@ jobs:
           SECTION_NAME: "waka"
           DEBUG_LOGGING: "True"
 
-          # Push to PR branch (your ruleset will require a PR to main)
+          # Push to PR branch (ruleset will require PR into main)
           PULL_BRANCH_NAME: "waka-readme-update"
           PUSH_BRANCH_NAME: "waka-readme-update"
