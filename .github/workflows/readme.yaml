@@ -103,7 +103,8 @@ jobs:
           SECTION_NAME: "waka"
           DEBUG_LOGGING: "True"
           PULL_BRANCH_NAME: "waka-readme-update"
-          PUSH_BRANCH_NAME: "main"
+          PUSH_BRANCH_NAME: "waka-readme-update"
+
 
       - name: Update WakaTime section (retry on failure)
         if: steps.waka1.outcome == 'failure'   # only run if attempt 1 failed
@@ -133,4 +134,4 @@ jobs:
           SECTION_NAME: "waka"
           DEBUG_LOGGING: "True"
           PULL_BRANCH_NAME: "waka-readme-update"
-          PUSH_BRANCH_NAME: "main"
+          PUSH_BRANCH_NAME: "waka-readme-update"
