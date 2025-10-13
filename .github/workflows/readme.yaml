@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours
+    - cron: "0 */3 * * *"   # every 3 hours (UTC)
   workflow_dispatch:
 
 permissions:
@@ -13,13 +13,13 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      # 1) Get a working copy (token wired for pushes by checkout)
+      # 1) Get a working copy
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2) Robust sanity check for your PAT in GH_TOKEN (retries + timeouts)
+      # 2) Robust sanity check for GH_TOKEN (retries/timeouts)
       - name: Sanity check GH_TOKEN scopes (robust)
         env:
           CHECK_TOKEN: ${{ secrets.GH_TOKEN }}   # classic PAT with read:user + repo/public_repo
@@ -32,17 +32,19 @@ jobs:
             -H "User-Agent: gha-waka-sanity" \
             -o /tmp/user.json -w '%{http_code}' https://api.github.com/user || true)"
           echo "HTTP $http"
-          [ -f /tmp/user.json ] && { echo "Body:"; cat /tmp/user.json; } || echo "No body captured."
+          if [ -f /tmp/user.json ]; then
+            echo "Body:"; cat /tmp/user.json
+          else
+            echo "No body captured."
+          fi
           if [ "$http" != "200" ]; then
             echo "Sanity check failed (token/scopes/SSO or transient network)."
             exit 1
           fi
           echo -n "Token OK. Login: "
-          python - <<'PY'
-          import json; print(json.load(open("/tmp/user.json"))["login"])
-          PY
+          python -c "import json; print(json.load(open('/tmp/user.json'))['login'])"
 
-      # 3) Ensure the PR branch exists (first run only); safe to keep always
+      # 3) Ensure the PR branch exists (first run only; safe to keep always)
       - name: Ensure PR branch exists
         run: |
           set -e
@@ -80,9 +82,9 @@ jobs:
           SHOW_TIMEZONE: "False"
           SHOW_LOC_CHART: "False"
 
-          # IMPORTANT: avoid heavy GraphQL commit queries to prevent network hiccups
+          # Avoid heavy GraphQL queries (stable)
           SHOW_COMMIT: "False"
-          SHOW_DAYS_OF_WEEK: "False"
+          SHOW_DAYS_OF_WEEK: "True"
           SHOW_SHORT_INFO: "False"
 
           LOCALE: "en"
