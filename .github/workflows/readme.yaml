@@ -1,3 +1,10 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
 permissions:
   contents: write
   pull-requests: write
@@ -22,8 +29,8 @@ jobs:
           fi
           echo "Token OK. Login:"
           (command -v jq >/dev/null && jq -r '.login' /tmp/user.json) || python - <<'PY'
-import json; print(json.load(open("/tmp/user.json"))["login"])
-PY
+          import json; print(json.load(open("/tmp/user.json"))["login"])
+          PY
 
       - name: Update WakaTime section
         uses: anmol098/waka-readme-stats@master
