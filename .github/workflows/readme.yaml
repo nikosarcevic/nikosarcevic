@@ -14,33 +14,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sanity check GH_TOKEN scopes
-                 - env:
-                 - CHECK_TOKEN: ${{ secrets.GH_TOKEN }}
-                 - run: |
-                 - set -e
-                 - echo "Calling /user with provided GH_TOKEN..."
-                 - http=$(curl -sS -o /tmp/user.json -w "%{http_code}" \
-      - H "Authorization: token $CHECK_TOKEN" \
-                           - https://api.github.com/user)
-                           - echo "HTTP $http"
-                           - echo "Body:" && cat /tmp/user.json
-                           - if [ "$http" != "200" ]; then
-                           - exit 1
-                           - fi
-                           - echo -n "Token OK. Login: "
-      - python -c 'import json; print(json.load(open("/tmp/user.json"))["login"])'
+        env:
+          CHECK_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          set -e
+          echo "Calling /user with provided GH_TOKEN..."
+          http=$(curl -sS -o /tmp/user.json -w "%{http_code}" \
+            -H "Authorization: token $CHECK_TOKEN" \
+            https://api.github.com/user)
+          echo "HTTP $http"
+          echo "Body:" && cat /tmp/user.json
+          if [ "$http" != "200" ]; then
+            exit 1
+          fi
+          echo -n "Token OK. Login: "
+          python -c 'import json; print(json.load(open("/tmp/user.json"))["login"])'
 
-
-                           - name: Update WakaTime section
+      - name: Update WakaTime section
         uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
           COMMIT_BY_ME: "True"
           COMMIT_USERNAME: "Nikolina Sarcevic"
           COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
           COMMIT_MESSAGE: "docs: update WakaTime stats"
           COMMIT_SINGLE: "True"
+
           SHOW_PROFILE_VIEWS: "True"
           SHOW_TOTAL_CODE_TIME: "True"
           SHOW_UPDATED_DATE: "True"
@@ -53,7 +54,9 @@ jobs:
           SHOW_LOC_CHART: "False"
           SHOW_COMMIT: "False"
           LOCALE: "en"
+
           SECTION_NAME: "waka"
           DEBUG_LOGGING: "True"
+
           PULL_BRANCH_NAME: "waka-readme-update"
           PUSH_BRANCH_NAME: "main"
