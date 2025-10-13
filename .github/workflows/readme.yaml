@@ -39,8 +39,8 @@ jobs:
           fi
           echo -n "Token OK. Login: "
           python - <<'PY'
-import json; print(json.load(open("/tmp/user.json"))["login"])
-PY
+          import json; print(json.load(open("/tmp/user.json"))["login"])
+          PY
 
       # 3) Ensure the PR branch exists (first run only); safe to keep always
       - name: Ensure PR branch exists
