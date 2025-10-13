@@ -1,10 +1,3 @@
-name: Update README
-
-on:
-  schedule:
-    - cron: "0 */3 * * *"
-  workflow_dispatch:
-
 permissions:
   contents: write
   pull-requests: write
@@ -29,25 +22,19 @@ jobs:
           fi
           echo "Token OK. Login:"
           (command -v jq >/dev/null && jq -r '.login' /tmp/user.json) || python - <<'PY'
-          import json; print(json.load(open("/tmp/user.json"))["login"])
-          PY
-      
+import json; print(json.load(open("/tmp/user.json"))["login"])
+PY
 
       - name: Update WakaTime section
         uses: anmol098/waka-readme-stats@master
         with:
-          # Secrets
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
-          # Commit identity (optional)
           COMMIT_BY_ME: "True"
           COMMIT_USERNAME: "Nikolina Sarcevic"
           COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
           COMMIT_MESSAGE: "docs: update WakaTime stats"
           COMMIT_SINGLE: "True"
-
-          # Display options
           SHOW_PROFILE_VIEWS: "True"
           SHOW_TOTAL_CODE_TIME: "True"
           SHOW_UPDATED_DATE: "True"
@@ -60,10 +47,7 @@ jobs:
           SHOW_LOC_CHART: "False"
           SHOW_COMMIT: "False"
           LOCALE: "en"
-
           SECTION_NAME: "waka"
           DEBUG_LOGGING: "True"
-
-          # Open a PR into protected main
           PULL_BRANCH_NAME: "waka-readme-update"
           PUSH_BRANCH_NAME: "main"
