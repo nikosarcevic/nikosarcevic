@@ -9,6 +9,10 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: waka-readme-update
+  cancel-in-progress: false
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -55,6 +59,20 @@ jobs:
             git push -u origin waka-readme-update
           fi
 
+      # 3.5) Reset PR branch to latest main to guarantee fast-forward pushes
+      - name: Prepare PR branch (reset to main to avoid non-FF)
+        run: |
+          set -e
+          git fetch origin
+          if git ls-remote --exit-code --heads origin waka-readme-update >/dev/null 2>&1; then
+            git checkout -B waka-readme-update origin/waka-readme-update
+            git reset --hard origin/main
+            git push -f origin HEAD:waka-readme-update
+          else
+            git checkout -B waka-readme-update origin/main
+            git push -u origin waka-readme-update
+          fi
+
       # 4) Run the WakaTime README updater (attempt 1)
       - name: Update WakaTime section (attempt 1)
         id: waka1
@@ -88,7 +106,7 @@ jobs:
           PUSH_BRANCH_NAME: "main"
 
       - name: Update WakaTime section (retry on failure)
-        if: steps.waka1.outcome == 'failure'   # <-- only run if attempt 1 failed
+        if: steps.waka1.outcome == 'failure'   # only run if attempt 1 failed
         uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
