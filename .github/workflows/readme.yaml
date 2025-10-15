@@ -2,12 +2,12 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours (UTC)
+    - cron: "0 * * * *"   # every hour (UTC)
   workflow_dispatch:
 
+# 'permissions' only affects GITHUB_TOKEN; we're using a PAT, but this is harmless.
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   update-readme:
@@ -26,15 +26,18 @@ jobs:
       - name: Update WakaTime section
         uses: anmol098/waka-readme-stats@master
         with:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}         # built-in token
+          # Use your CLASSIC PAT here (works with /user), not GITHUB_TOKEN
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
 
+          # Commit to the currently checked-out branch (main)
           COMMIT_BY_ME: "True"
           COMMIT_USERNAME: "github-actions[bot]"
           COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
           COMMIT_MESSAGE: "docs: update WakaTime stats"
-          COMMIT_SINGLE: "False"                        # new commit each run
+          COMMIT_SINGLE: "False"   # separate commit each run (keeps the updated timestamp)
 
+          # Display options
           SHOW_PROFILE_VIEWS: "True"
           SHOW_TOTAL_CODE_TIME: "True"
           SHOW_UPDATED_DATE: "True"
