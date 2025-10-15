@@ -2,8 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 * * * *"
-    - cron: "30 * * * *"
+    - cron: "*/5 * * * *"  # Every 5 minutes
   workflow_dispatch:
 
 # 'permissions' only affects GITHUB_TOKEN; we're using a PAT, but this is harmless.
@@ -14,9 +13,9 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout default branch
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
+          ref: main            # ensure we’re on main
           fetch-depth: 0
 
       - name: Set bot identity
@@ -27,18 +26,13 @@ jobs:
       - name: Update WakaTime section
         uses: anmol098/waka-readme-stats@master
         with:
-          # Use your CLASSIC PAT here (works with /user), not GITHUB_TOKEN
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}              # use a **classic** PAT with 'repo' scope
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-
-          # Commit to the currently checked-out branch (main)
           COMMIT_BY_ME: "True"
           COMMIT_USERNAME: "github-actions[bot]"
           COMMIT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
           COMMIT_MESSAGE: "docs: update WakaTime stats"
-          COMMIT_SINGLE: "False"   # separate commit each run (keeps the updated timestamp)
-
-          # Display options
+          COMMIT_SINGLE: "False"
           SHOW_PROFILE_VIEWS: "True"
           SHOW_TOTAL_CODE_TIME: "True"
           SHOW_UPDATED_DATE: "True"
