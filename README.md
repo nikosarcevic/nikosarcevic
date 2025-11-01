@@ -86,7 +86,7 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-133%20hrs%2040%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-133%20hrs%2052%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-5-blue)
 
@@ -117,7 +117,7 @@ PyCharm                  44 hrs              ███████████�
 ```
 
 
- Last Updated on 01/11/2025 13:10:12 UTC
+ Last Updated on 01/11/2025 14:05:40 UTC
 <!--END_SECTION:waka-->
 
 
