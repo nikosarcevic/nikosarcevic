@@ -86,15 +86,13 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-272%20hrs%2028%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-272%20hrs%2039%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.7 MB Used in GitHub's Storage 
- > 
-> 🏆 1,838 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -117,7 +115,7 @@ PyCharm                  29 hrs 3 mins       ███████████�
 ```
 
 
- Last Updated on 11/12/2025 16:09:34 UTC
+ Last Updated on 11/12/2025 17:10:42 UTC
 <!--END_SECTION:waka-->
 
 
