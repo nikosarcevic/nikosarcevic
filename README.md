@@ -106,15 +106,14 @@
 
 ```text
 💬 Programming Languages: 
-Python                   1 hr 36 mins        ████████████████████████░   97.08 % 
-Jupyter                  2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.92 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-PyCharm                  1 hr 39 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 
- Last Updated on 21/02/2026 05:22:15 UTC
+ Last Updated on 21/02/2026 06:17:21 UTC
 <!--END_SECTION:waka-->
 
 
