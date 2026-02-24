@@ -86,7 +86,7 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-665%20hrs%2015%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-673%20hrs%2027%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -106,14 +106,18 @@
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+Python                   6 hrs 24 mins       ██████████████████████░░░   86.14 % 
+Jupyter                  34 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.74 % 
+TOML                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.81 % 
+Markdown                 7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.66 % 
+YAML                     6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+PyCharm                  7 hrs 26 mins       █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 24/02/2026 05:31:37 UTC
+ Last Updated on 24/02/2026 06:27:08 UTC
 <!--END_SECTION:waka-->
 
 
