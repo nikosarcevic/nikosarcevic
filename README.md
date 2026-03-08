@@ -86,7 +86,7 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-732%20hrs%2052%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-746%20hrs%207%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -94,7 +94,7 @@
 
 > 📦 1.7 MB Used in GitHub's Storage 
  > 
-> 🏆 520 Contributions in the Year 2026
+> 🏆 523 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -106,18 +106,18 @@
 
 ```text
 💬 Programming Languages: 
-Python                   26 hrs 25 mins      ███████████████░░░░░░░░░░   60.22 % 
-reStructuredText         9 hrs 28 mins       █████░░░░░░░░░░░░░░░░░░░░   21.58 % 
-ReST                     2 hrs 19 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   05.29 % 
-YAML                     1 hr 41 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.87 % 
-CSS                      59 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.28 % 
+Python                   27 hrs 14 mins      ████████████░░░░░░░░░░░░░   49.75 % 
+reStructuredText         18 hrs              ████████░░░░░░░░░░░░░░░░░   32.90 % 
+ReST                     3 hrs 34 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.53 % 
+YAML                     1 hr 48 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.30 % 
+CSS                      59 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.83 % 
 
 🔥 Editors: 
-PyCharm                  43 hrs 52 mins      █████████████████████████   100.00 % 
+PyCharm                  54 hrs 44 mins      █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 08/03/2026 05:22:38 UTC
+ Last Updated on 08/03/2026 06:18:11 UTC
 <!--END_SECTION:waka-->
 
 
