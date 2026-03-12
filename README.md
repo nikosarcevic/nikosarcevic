@@ -106,18 +106,18 @@
 
 ```text
 💬 Programming Languages: 
-Python                   25 hrs 52 mins      ███████████░░░░░░░░░░░░░░   42.82 % 
-reStructuredText         23 hrs 30 mins      ██████████░░░░░░░░░░░░░░░   38.91 % 
-ReST                     4 hrs 28 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.40 % 
-YAML                     2 hrs 13 mins       █░░░░░░░░░░░░░░░░░░░░░░░░   03.68 % 
-CSS                      1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   02.13 % 
+reStructuredText         22 hrs 13 mins      ███████████░░░░░░░░░░░░░░   43.07 % 
+Python                   19 hrs 33 mins      █████████░░░░░░░░░░░░░░░░   37.90 % 
+ReST                     4 hrs 14 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.23 % 
+YAML                     1 hr 55 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 % 
+CSS                      1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   02.49 % 
 
 🔥 Editors: 
-PyCharm                  60 hrs 25 mins      █████████████████████████   100.00 % 
+PyCharm                  51 hrs 37 mins      █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 12/03/2026 04:38:10 UTC
+ Last Updated on 12/03/2026 05:27:07 UTC
 <!--END_SECTION:waka-->
 
 
