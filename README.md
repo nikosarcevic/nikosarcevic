@@ -86,7 +86,7 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-768%20hrs%203%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-768%20hrs%2036%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
@@ -106,18 +106,18 @@
 
 ```text
 💬 Programming Languages: 
-Jupyter                  0 secs              ██████████████░░░░░░░░░░░   56.78 % 
-Python                   0 secs              ██████████░░░░░░░░░░░░░░░   38.16 % 
-Markdown                 0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   04.14 % 
-YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 % 
-ReST                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
+Python                   0 secs              ███████████████████████░░   91.27 % 
+Jupyter                  0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   05.82 % 
+YAML                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.25 % 
+ReST                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 % 
+reStructuredText         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 % 
 
 🔥 Editors: 
 PyCharm                  0 secs              █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 18/03/2026 04:44:25 UTC
+ Last Updated on 18/03/2026 05:34:27 UTC
 <!--END_SECTION:waka-->
 
 
