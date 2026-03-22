@@ -86,7 +86,7 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-792%20hrs%2028%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-806%20hrs%2044%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue?style=flat)
 
@@ -94,7 +94,7 @@
 
 > 📦 1.7 MB Used in GitHub's Storage 
  > 
-> 🏆 598 Contributions in the Year 2026
+> 🏆 599 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -106,18 +106,18 @@
 
 ```text
 💬 Programming Languages: 
-Python                   23 hrs 24 mins      ████████████████████████░   95.90 % 
-Text                     22 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.53 % 
-Markdown                 17 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.17 % 
-YAML                     9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.67 % 
-CSS                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.39 % 
+Python                   35 hrs 36 mins      ████████████████████████░   95.37 % 
+YAML                     37 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.66 % 
+Text                     28 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.29 % 
+Markdown                 26 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.20 % 
+CSS                      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.26 % 
 
 🔥 Editors: 
-PyCharm                  24 hrs 24 mins      █████████████████████████   100.00 % 
+PyCharm                  37 hrs 20 mins      █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 22/03/2026 04:41:40 UTC
+ Last Updated on 22/03/2026 05:29:21 UTC
 <!--END_SECTION:waka-->
 
 
