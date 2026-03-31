@@ -86,7 +86,7 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-870%20hrs%2059%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-880%20hrs%2031%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue?style=flat)
 
@@ -106,18 +106,18 @@
 
 ```text
 💬 Programming Languages: 
-Python                   54 hrs              ███████████████████████░░   93.03 % 
-Jupyter                  49 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
-YAML                     43 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.24 % 
-INI                      31 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.91 % 
-GitIgnore file           27 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.80 % 
+Python                   51 hrs 46 mins      ████████████████████████░   94.17 % 
+Jupyter                  49 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.51 % 
+YAML                     41 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.27 % 
+INI                      31 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.96 % 
+GitIgnore file           27 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.85 % 
 
 🔥 Editors: 
-PyCharm                  58 hrs 3 mins       █████████████████████████   100.00 % 
+PyCharm                  54 hrs 59 mins      █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 31/03/2026 04:53:28 UTC
+ Last Updated on 31/03/2026 05:37:34 UTC
 <!--END_SECTION:waka-->
 
 
