@@ -106,18 +106,18 @@
 
 ```text
 💬 Programming Languages: 
-Python                   45 hrs 10 mins      ██████████████████████░░░   86.30 % 
-Jupyter                  4 hrs 37 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.82 % 
-YAML                     45 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.46 % 
-INI                      42 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.36 % 
-GitIgnore file           27 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
+Python                   41 hrs              ██████████████████████░░░   86.43 % 
+Jupyter                  4 hrs 35 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.67 % 
+YAML                     45 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
+GitIgnore file           27 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
+INI                      10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.39 % 
 
 🔥 Editors: 
-PyCharm                  52 hrs 20 mins      █████████████████████████   100.00 % 
+PyCharm                  47 hrs 27 mins      █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 02/04/2026 04:48:56 UTC
+ Last Updated on 02/04/2026 05:36:22 UTC
 <!--END_SECTION:waka-->
 
 
