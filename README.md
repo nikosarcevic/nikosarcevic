@@ -94,7 +94,7 @@
 
 > 📦 1.7 MB Used in GitHub's Storage 
  > 
-> 🏆 668 Contributions in the Year 2026
+> 🏆 669 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -106,17 +106,17 @@
 
 ```text
 💬 Programming Languages: 
-Python                   11 hrs 19 mins      ██████████████████░░░░░░░   73.54 % 
-Jupyter                  3 hrs 47 mins       ██████░░░░░░░░░░░░░░░░░░░   24.58 % 
-INI                      10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.19 % 
-YAML                     6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.69 % 
+Jupyter                  3 hrs 47 mins       ████████████████░░░░░░░░░   64.72 % 
+Python                   1 hr 48 mins        ████████░░░░░░░░░░░░░░░░░   31.04 % 
+INI                      10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.13 % 
+YAML                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.10 % 
 
 🔥 Editors: 
-PyCharm                  15 hrs 24 mins      █████████████████████████   100.00 % 
+PyCharm                  5 hrs 50 mins       █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 07/04/2026 04:52:40 UTC
+ Last Updated on 07/04/2026 05:38:16 UTC
 <!--END_SECTION:waka-->
 
 
