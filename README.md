@@ -106,17 +106,14 @@
 
 ```text
 💬 Programming Languages: 
-Jupyter                  3 hrs 47 mins       ████████████████░░░░░░░░░   64.72 % 
-Python                   1 hr 48 mins        ████████░░░░░░░░░░░░░░░░░   31.04 % 
-INI                      10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.13 % 
-YAML                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.10 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-PyCharm                  5 hrs 50 mins       █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 
- Last Updated on 08/04/2026 04:54:23 UTC
+ Last Updated on 08/04/2026 05:38:27 UTC
 <!--END_SECTION:waka-->
 
 
