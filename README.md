@@ -86,7 +86,7 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-893%20hrs%207%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-893%20hrs%2021%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-5-blue?style=flat)
 
@@ -106,14 +106,14 @@
 
 ```text
 💬 Programming Languages: 
-Python                   6 hrs 44 mins       █████████████████████████   100.00 % 
+Python                   6 hrs 58 mins       █████████████████████████   100.00 % 
 
 🔥 Editors: 
-PyCharm                  6 hrs 44 mins       █████████████████████████   100.00 % 
+PyCharm                  6 hrs 58 mins       █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 18/04/2026 04:50:53 UTC
+ Last Updated on 18/04/2026 05:35:53 UTC
 <!--END_SECTION:waka-->
 
 
