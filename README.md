@@ -102,8 +102,22 @@
  > 
 > 🔑 34 Private Repositories 
  > 
+📊 **This Week I Spent My Time On** 
 
- Last Updated on 20/05/2026 07:22:25 UTC
+```text
+💬 Programming Languages: 
+Python                   7 hrs 31 mins       ████████████░░░░░░░░░░░░░   47.17 % 
+reStructuredText         3 hrs 52 mins       ██████░░░░░░░░░░░░░░░░░░░   24.31 % 
+Jupyter                  2 hrs 43 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.10 % 
+ReST                     1 hr 28 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.30 % 
+TOML                     14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.48 % 
+
+🔥 Editors: 
+PyCharm                  15 hrs 56 mins      █████████████████████████   100.00 % 
+```
+
+
+ Last Updated on 20/05/2026 09:15:39 UTC
 <!--END_SECTION:waka-->
 
 
