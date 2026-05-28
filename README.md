@@ -86,15 +86,13 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-965%20hrs%2052%20mins-blue?style=flat)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.7 MB Used in GitHub's Storage 
  > 
-> 🏆 984 Contributions in the Year 2026
+> 🏆 985 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -102,22 +100,8 @@
  > 
 > 🔑 34 Private Repositories 
  > 
-📊 **This Week I Spent My Time On** 
 
-```text
-💬 Programming Languages: 
-Python                   11 hrs 18 mins      ███████████████░░░░░░░░░░   61.97 % 
-reStructuredText         2 hrs 10 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.93 % 
-YAML                     1 hr 15 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.86 % 
-Markdown                 58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.35 % 
-ReST                     54 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
-
-🔥 Editors: 
-PyCharm                  18 hrs 14 mins      █████████████████████████   100.00 % 
-```
-
-
- Last Updated on 28/05/2026 15:14:20 UTC
+ Last Updated on 28/05/2026 17:21:37 UTC
 <!--END_SECTION:waka-->
 
 
