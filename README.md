@@ -86,6 +86,8 @@
 </table>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-966%20hrs%203%20mins-blue?style=flat)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 **🐱 My GitHub Data** 
@@ -100,8 +102,22 @@
  > 
 > 🔑 34 Private Repositories 
  > 
+📊 **This Week I Spent My Time On** 
 
- Last Updated on 28/05/2026 17:21:37 UTC
+```text
+💬 Programming Languages: 
+Python                   11 hrs 19 mins      ████████████████░░░░░░░░░   62.02 % 
+reStructuredText         2 hrs 10 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.91 % 
+YAML                     1 hr 15 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.85 % 
+Markdown                 58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.34 % 
+ReST                     54 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+
+🔥 Editors: 
+PyCharm                  18 hrs 15 mins      █████████████████████████   100.00 % 
+```
+
+
+ Last Updated on 28/05/2026 18:58:36 UTC
 <!--END_SECTION:waka-->
 
 
