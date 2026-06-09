@@ -86,7 +86,7 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-997%20hrs%2042%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-997%20hrs%2051%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -106,18 +106,18 @@
 
 ```text
 💬 Programming Languages: 
-Python                   19 hrs 16 mins      ███████████████████░░░░░░   77.74 % 
-Markdown                 2 hrs 50 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.45 % 
-reStructuredText         48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.29 % 
-YAML                     41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.82 % 
-ReST                     31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.11 % 
+Python                   18 hrs 59 mins      ███████████████████░░░░░░   77.48 % 
+Markdown                 2 hrs 50 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.58 % 
+reStructuredText         48 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.33 % 
+YAML                     41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.85 % 
+ReST                     31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.13 % 
 
 🔥 Editors: 
-PyCharm                  24 hrs 48 mins      █████████████████████████   100.00 % 
+PyCharm                  24 hrs 31 mins      █████████████████████████   100.00 % 
 ```
 
 
- Last Updated on 09/06/2026 05:28:22 UTC
+ Last Updated on 09/06/2026 07:22:53 UTC
 <!--END_SECTION:waka-->
 
 
