@@ -24,7 +24,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Update WakaTime section
-        uses: anmol098/waka-readme-stats@master
+        uses: anmol098/waka-readme-stats@2c04c57
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}              # use a **classic** PAT with 'repo' scope
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
