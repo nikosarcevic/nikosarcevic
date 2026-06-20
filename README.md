@@ -50,19 +50,48 @@
 
 <table border="0" cellspacing="0" cellpadding="0" role="presentation">
   <tr>
-    <td>
+    <td width="50%" valign="top">
       <b>DerivKit</b><br/>
-      Adaptive polynomial-fit derivatives, Fisher/DALI utilities<br/><br/>
-      <a href="https://github.com/nikosarcevic/derivkit">
-        <img alt="Open DerivKit" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff4db8">
+      Numerical derivatives, Fisher forecasts, DALI utilities, and inference tools<br/><br/>
+      <a href="https://docs.derivkit.org/main/">
+        <img alt="DerivKit docs" src="https://img.shields.io/badge/Docs-ff4db8?style=flat&logo=readthedocs&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
+      <a href="https://github.com/derivkit/derivkit">
+        <img alt="DerivKit GitHub" src="https://img.shields.io/badge/GitHub-ff9500?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff9500">
       </a><br/>
-      <a href="https://github.com/nikosarcevic/derivkit">github.com/nikosarcevic/derivkit</a>
+      <a href="https://docs.derivkit.org/main/">docs.derivkit.org/main</a>
     </td>
-    <td>
+    <td width="50%" valign="top">
+      <b>Binny</b><br/>
+      Tomographic binning, redshift distributions, and survey sample utilities<br/><br/>
+      <a href="https://binny-org.github.io/binny/main/">
+        <img alt="Binny docs" src="https://img.shields.io/badge/Docs-ff4db8?style=flat&logo=readthedocs&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
+      <a href="https://github.com/binny-org/binny">
+        <img alt="Binny GitHub" src="https://img.shields.io/badge/GitHub-ff9500?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff9500">
+      </a><br/>
+      <a href="https://binny-org.github.io/binny/main/">binny-org.github.io/binny/main</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <br/>
+      <b>LFKit</b><br/>
+      Luminosity functions, photometric corrections, and galaxy sample modeling<br/><br/>
+      <a href="https://cosmology-kit.github.io/lfkit/main/">
+        <img alt="LFKit docs" src="https://img.shields.io/badge/Docs-ff4db8?style=flat&logo=readthedocs&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
+      <a href="https://github.com/cosmology-kit/lfkit">
+        <img alt="LFKit GitHub" src="https://img.shields.io/badge/GitHub-ff9500?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff9500">
+      </a><br/>
+      <a href="https://cosmology-kit.github.io/lfkit/main/">cosmology-kit.github.io/lfkit/main</a>
+    </td>
+    <td width="50%" valign="top">
+      <br/>
       <b>echoIA hub</b><br/>
-      Community resources & shape-catalog links for intrinsic alignments<br/><br/>
+      Community resources and shape catalog links for intrinsic alignments<br/><br/>
       <a href="https://echoia.org">
-        <img alt="Open echoIA" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=open-access&logoColor=white&labelColor=0d1117&color=ff4db8">
+        <img alt="echoIA" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=open-access&logoColor=white&labelColor=0d1117&color=ff4db8">
       </a><br/>
       <a href="https://echoia.org">echoia.org</a>
     </td>
