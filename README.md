@@ -58,8 +58,7 @@
       </a>
       <a href="https://github.com/derivkit/derivkit">
         <img alt="DerivKit GitHub" src="https://img.shields.io/badge/GitHub-ff9500?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff9500">
-      </a><br/>
-      <a href="https://docs.derivkit.org/main/">docs.derivkit.org/main</a>
+      </a>
     </td>
     <td width="50%" valign="top">
       <b>Binny</b><br/>
@@ -69,8 +68,7 @@
       </a>
       <a href="https://github.com/binny-org/binny">
         <img alt="Binny GitHub" src="https://img.shields.io/badge/GitHub-ff9500?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff9500">
-      </a><br/>
-      <a href="https://binny-org.github.io/binny/main/">binny-org.github.io/binny/main</a>
+      </a>
     </td>
   </tr>
   <tr>
@@ -83,8 +81,7 @@
       </a>
       <a href="https://github.com/cosmology-kit/lfkit">
         <img alt="LFKit GitHub" src="https://img.shields.io/badge/GitHub-ff9500?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff9500">
-      </a><br/>
-      <a href="https://cosmology-kit.github.io/lfkit/main/">cosmology-kit.github.io/lfkit/main</a>
+      </a>
     </td>
     <td width="50%" valign="top">
       <br/>
@@ -92,8 +89,7 @@
       Community resources and shape catalog links for intrinsic alignments<br/><br/>
       <a href="https://echoia.org">
         <img alt="echoIA" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=open-access&logoColor=white&labelColor=0d1117&color=ff4db8">
-      </a><br/>
-      <a href="https://echoia.org">echoia.org</a>
+      </a>
     </td>
   </tr>
 </table>
@@ -165,24 +161,21 @@ PyCharm                  17 hrs 29 mins      ███████████�
   </tr>
 </table>
 
-
 <table border="0" cellspacing="0" cellpadding="0" role="presentation">
   <tr>
-    <td>
-      <b>HEP-ASTRO-COSMO</b><br/>
-      Open-source software in HEP astro & cosmology<br/><br/>
+    <td width="50%" valign="top">
+      <b>HEP ASTRO COSMO</b><br/>
+      Open source software in HEP, astronomy, and cosmology<br/><br/>
       <a href="https://github.com/nikosarcevic/HEP-ASTRO-COSMO">
-        <img alt="Open repo" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff4db8">
-      </a><br/>
-      <a href="https://github.com/nikosarcevic/HEP-ASTRO-COSMO">github.com/nikosarcevic/HEP-ASTRO-COSMO</a>
+        <img alt="HEP ASTRO COSMO GitHub" src="https://img.shields.io/badge/GitHub-ff4db8?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
     </td>
-    <td>
+    <td width="50%" valign="top">
       <b>cosmo_sandbox</b><br/>
-      Demo of 2PCF experiments<br/><br/>
+      Demo repository for 2PCF experiments and cosmology workflows<br/><br/>
       <a href="https://github.com/nikosarcevic/cosmo_sandbox">
-        <img alt="Open repo" src="https://img.shields.io/badge/Open-ff4db8?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff4db8">
-      </a><br/>
-      <a href="https://github.com/nikosarcevic/cosmo_sandbox">github.com/nikosarcevic/cosmo_sandbox</a>
+        <img alt="cosmo_sandbox GitHub" src="https://img.shields.io/badge/GitHub-ff4db8?style=flat&logo=github&logoColor=white&labelColor=0d1117&color=ff4db8">
+      </a>
     </td>
   </tr>
 </table>
